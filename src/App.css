@@ -1,38 +1,251 @@
 .App {
-  text-align: center;
+
+  background-image: url('./assetc/png/gameplay_design_01/bg.png'); 
+  height: max-content;
+  min-height: 100%;
+  height: 100%;
+  width:100%;
+  height:auto !important;
+  position:absolute;
+  z-index:1;
+ 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.game-table {
+  background-image: url('./assetc/png/gameplay_design_01/table.png');
+  height: 550px;
+    background-repeat: round;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.gamer-user {
+  background-image: url('./assetc/png/gameplay_design_01/sliver_chair_fream.png');
+  height: 120px;
+  width: 260px;
+  background-repeat: round;
+  justify-content: space-evenly;
   display: flex;
-  flex-direction: column;
   align-items: center;
+
+}
+
+.gamer-bottom  {
+  position: relative;
+  top: 75px;
+}
+
+.gamer-top {
+  position: relative;
+  bottom: 75px;
+}
+
+.gamer-title {
+  width: 110px;
+  margin-left: 25px;
+  margin-top: 25px;
+  /* background-image: url('./assetc/png/gameplay_design_01/sliver_text_box02.png'); */
+  background-repeat: round;
+}
+
+.gamer-subtitle {
+  width: 90px;
+  margin-left: 25px;
+  margin-top: 15px;
+}
+
+.oil-color {
+  color: #F4DA90;
+}
+
+.gamer-number {
+  position: relative;
+  width: 100%;
+  left: 12px;
+}
+
+.gamer-card {
+  width: 28px;
+}
+
+.card-bind {
+  background-image: url('./assetc/png/gameplay_design_01/bottom_bar.png');
+  height: 335px;
+  background-repeat: round;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.final-bind {
+  background-image: url('./assetc/png/gameplay_design_01/bid_board.png');
+  height: 335px;
+  background-repeat: round;
+  border-radius: 15px;
+}
+
+.windows-chaire {
+  background-image: url('./assetc/png/gameplay_design_01/window_title.png');
+  height: 335px;
+  background-repeat: round;
+  border-radius: 15px;
+}
+
+.card-one {
+  background-image: url('./assetc/png/cards/clubs_J.png');
+  height: 200px;
+  width: 125px;
+  background-repeat: round;
+  border-radius: 15px;
+}
+
+.card-two {
+  background-image: url('./assetc/png/cards/diamonds_6.png');
+  height: 200px;
+  width: 125px;
+  background-repeat: round;
+  border-radius: 15px;
+}
+
+.card-three {
+  background-image: url('./assetc/png/cards/clubs_Q.png');
+  height: 200px;
+  width: 125px;
+  background-repeat: round;
+  border-radius: 15px;
+}
+
+.card-four {
+  background-image: url('./assetc/png/cards/hearts_1_A.png');
+  height: 200px;
+  width: 125px;
+  background-repeat: round;
+  border-radius: 15px;
+}
+
+.card-five {
+  background-image: url('./assetc/png/cards/diamonds_8.png');
+  height: 200px;
+  width: 125px;
+  background-repeat: round;
+  border-radius: 15px;
+}
+
+.card-six {
+  background-image: url('./assetc/png/cards/spades_K.png');
+  height: 200px;
+  width: 125px;
+  background-repeat: round;
+  border-radius: 15px;
+}
+
+.card-seven {
+  background-image: url('./assetc/png/cards/spades_10.png');
+  height: 200px;
+  width: 125px;
+  background-repeat: round;
+  border-radius: 15px;
+}
+
+.card-eighth {
+  background-image: url('./assetc/png/cards/diamonds_Q.png');
+  height: 200px;
+  width: 125px;
+  background-repeat: round;
+  border-radius: 15px;
+}
+
+.footer-container {
+  margin-top: 100px;
+}
+
+.active-grean {
+ 
+  border: 6px solid #55CC47;
+  border-radius: 20px;
+}
+
+.active-danger {
+  border-radius: 20px;
+  border: 6px solid #CB1909;
+}
+
+.increment-index {
+  border: 3px solid #6D3FE0;
+  background: #2E0099;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.decrement-index {
+  border: 3px solid #6D3FE0;
+  background: #2E0099;
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.square {
+  width: 35px;
+  height: 35px;
+  align-items: center;
+  color: white;
+  display: flex;
+    justify-content: center;
+}
+
+.rectangle {
+  width: 70px;
+  height: 35px;
+  align-items: center;
+  color: white;
+  display: flex;
+    justify-content: center;
+}
+
+.rectangle-lg {
+  width: 170px;
+  height: 35px;
+  align-items: center;
+  color: white;
+  display: flex;
+    justify-content: center;
+}
+
+.step-one {
+  padding: 10px 195px;
+}
+
+.step-two {
+  padding: 10px 105px;
+}
+
+.step-three {
+  padding: 10px 105px;
+}
+
+.step-four {
+  padding: 10px 105px;
+}
+
+.step-five {
+  padding: 10px 195px;
+}
+
+.table-view {
+  margin-top: 80px;
+}
+
+.tab-img {
+  width: 25px;
+}
+
+.square-number {
+  background-color: #4B157C;
+  border: 3px solid #F9BC5F;
+}
+
+/* Font Style */
+
+
+button {
+  outline: 0 auto;
+}
+
+.font-50 {
+  font-size: 50px;
 }
