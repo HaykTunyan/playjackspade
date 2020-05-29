@@ -6,12 +6,12 @@ const Footer = () => {
         <>
         <div className="container-fluid footer-container">
             <div className="row">
-                <div className="col-2">
+                <div className="col-12 col-xl-2">
                     <div className="final-bind">
 
                     </div>
                 </div>
-                <div className="col-8 ">
+                <div className="col-12  col-xl-8 d-none d-xl-block">
                     <div className="card-bind">
                         <div className="d-flex justfy-content-between align-items-center h-100">
                             <button className="card-one mx-3">
@@ -46,7 +46,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-2">
+                <div className="col-12 col-xl-2">
                     <div className="windows-chaire">
 
                     </div>

@@ -1,10 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Login.css';
+import { login } from '../../redux/AuthReducer';
 import { Field, reduxForm } from 'redux-form';
+import { connect } from 'react-redux'
 
 const Login = (props) => {
+
 	console.log("props", props);
+
 	const { handleSubmit, pristine, reset, submitting } = props;
 
     return (

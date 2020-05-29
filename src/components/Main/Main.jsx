@@ -8,69 +8,65 @@ const Main = () => {
 
     return (
         <>
-        <main role="main">
-            <div className="container">
-                
-                <div className="row">
-                <div className="d-flex justify-content-between col-12 offset-md-1 col-md-10 col-lg-10 offset-lg-1">
-                   
-                   <div className="gamer-user">
-                       <div className="d-flex">
-                           <span className="text-white oil-color font-50 gamer-number"> 6</span>
-                       </div>
-                   
-                       <div className="d-flex flex-column">
-                           
-                           <div className="d-flex justify-content-between gamer-title ">
-                               <div className=" oil-color  mr-3"> C 1</div>
-                               <div className=" oil-color font-weight-bold"> FRIDDYT </div>
-                           </div>
-                           <div className="d-flex justify-content-between gamer-subtitle">
-                               <div className="text-white"> +1 </div>
-                               <div className="text-white"> <img src={Xach} alt="" className="gamer-card"/>  37 </div>
-                           </div>
-                       </div>
-                   </div>
-          
-               <div className="gamer-user gamer-top active-grean">
-               <div className="d-flex ">
-                           <span className="text-white oil-color font-50 gamer-number"> 5</span>
-                       </div>
-                   
-                       <div className="d-flex flex-column">
-                           
-                           <div className="d-flex justify-content-between gamer-title ">
-                               <div className=" oil-color  mr-3"> C 1</div>
-                               <div className=" oil-color font-weight-bold"> FRIDDYT </div>
-                           </div>
-                           <div className="d-flex justify-content-between gamer-subtitle">
-                               <div className="text-white"> +1 </div>
-                               <div className="text-white"> <img src={Qyap} alt="" className="gamer-card"/>  37 </div>
-                           </div>
-                       </div>
-               </div>
-               <div className="gamer-user ">
-               <div className="d-flex">
-                           <span className="text-white oil-color font-50 gamer-number"> 4</span>
-                       </div>
-                   
-                       <div className="d-flex flex-column">
-                           
-                           <div className="d-flex justify-content-between gamer-title ">
-                               <div className=" oil-color  mr-3"> C 1</div>
-                               <div className=" oil-color font-weight-bold"> FRIDDYT </div>
-                           </div>
-                           <div className="d-flex justify-content-between gamer-subtitle">
-                               <div className="text-white"> +1 </div>
-                               <div className="text-white"> <img src={Qyap} alt="" className="gamer-card"/>  37 </div>
-                           </div>
-                       </div>
-               </div>
-           </div>
+            <main role="main">
+                <div className="container">
+                    <div className="row">
+                        <div className="d-flex justify-content-between col-12 offset-md-1 col-md-10 col-lg-10 offset-lg-1">
+                            <div className="gamer-user">
+                                <div className="d-flex">
+                                    <span className="text-white oil-color font-50 gamer-number"> 6</span>
+                                </div>
+
+                                <div className="d-flex flex-column">
+
+                                    <div className="d-flex justify-content-between gamer-title ">
+                                        <div className=" oil-color  mr-3"> C 1</div>
+                                        <div className=" oil-color font-weight-bold"> FRIDDYT </div>
+                                    </div>
+                                    <div className="d-flex justify-content-between gamer-subtitle">
+                                        <div className="text-white"> +1 </div>
+                                        <div className="text-white"> <img src={Xach} alt="" className="gamer-card" />  37 </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="gamer-user gamer-top active-grean">
+                                <div className="d-flex ">
+                                    <span className="text-white oil-color font-50 gamer-number"> 5</span>
+                                </div>
+                                <div className="d-flex flex-column">
+
+                                    <div className="d-flex justify-content-between gamer-title ">
+                                        <div className=" oil-color  mr-3"> C 1</div>
+                                        <div className=" oil-color font-weight-bold"> FRIDDYT </div>
+                                    </div>
+                                    <div className="d-flex justify-content-between gamer-subtitle">
+                                        <div className="text-white"> +1 </div>
+                                        <div className="text-white"> <img src={Qyap} alt="" className="gamer-card" />  37 </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="gamer-user ">
+                                <div className="d-flex">
+                                    <span className="text-white oil-color font-50 gamer-number"> 4</span>
+                                </div>
+
+                                <div className="d-flex flex-column">
+
+                                    <div className="d-flex justify-content-between gamer-title ">
+                                        <div className=" oil-color  mr-3"> C 1</div>
+                                        <div className=" oil-color font-weight-bold"> FRIDDYT </div>
+                                    </div>
+                                    <div className="d-flex justify-content-between gamer-subtitle">
+                                        <div className="text-white"> +1 </div>
+                                        <div className="text-white"> <img src={Qyap} alt="" className="gamer-card" />  37 </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <section className="game-table col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
                             <div className="table-view">
                                 <div className="d-flex justify-content-between step-one">
-                                    
+
                                     <span className="increment-index square" >
                                         +
                                     </span>
@@ -89,7 +85,7 @@ const Main = () => {
 
                                 </div>
                                 <div className="d-flex justify-content-between step-two">
-                                    
+
                                     <span className="square-number square" >
                                         28
                                     </span>
@@ -123,7 +119,7 @@ const Main = () => {
 
                                 </div>
                                 <div className="d-flex justify-content-between step-three">
-                                    
+
                                     <span className="square-number square" >
                                         38
                                     </span>
@@ -157,7 +153,7 @@ const Main = () => {
 
                                 </div>
                                 <div className="d-flex justify-content-between step-four">
-                                    
+
                                     <span className="square-number square" >
                                         48
                                     </span>
@@ -168,13 +164,13 @@ const Main = () => {
                                         50
                                     </span>
                                     <span className="square-number rectangle-lg" >
-                                        <img src={Xach} className="tab-img" alt=""/>
-                                        <img src={Sirt} className="tab-img" alt=""/>
-                                        <img src={Qyap} className="tab-img" alt=""/>
-                                        <img src={Xar} className="tab-img" alt=""/>
+                                        <img src={Xach} className="tab-img" alt="" />
+                                        <img src={Sirt} className="tab-img" alt="" />
+                                        <img src={Qyap} className="tab-img" alt="" />
+                                        <img src={Xar} className="tab-img" alt="" />
 
                                     </span>
-                                    
+
                                     <span className="square-number square">
                                         NS
                                     </span>
@@ -188,7 +184,7 @@ const Main = () => {
                                 </div>
 
                                 <div className="d-flex justify-content-between step-five">
-                                    
+
                                     <span className="increment-index square" >
                                         X
                                     </span>
@@ -197,76 +193,76 @@ const Main = () => {
                                     </span>
 
 
-                          
+
                                     <span className="decrement-index  rectangle-lg">
 
                                     </span>
 
                                 </div>
-                               
+
                             </div>
                         </section>
-                
+
                         <div className="d-flex justify-content-between col-12 offset-md-1 col-md-10 col-lg-10 offset-lg-1">
 
-<div className="gamer-user">
-<div className="d-flex">
-        <span className="text-white oil-color font-50 gamer-number">3</span>
-    </div>
+                            <div className="gamer-user">
+                                <div className="d-flex">
+                                    <span className="text-white oil-color font-50 gamer-number">3</span>
+                                </div>
 
-    <div className="d-flex flex-column">
-        
-        <div className="d-flex justify-content-between gamer-title ">
-            <div className=" oil-color  mr-3"> C 1</div>
-            <div className=" oil-color font-weight-bold"> FRIDDYT </div>
-        </div>
-        <div className="d-flex justify-content-between gamer-subtitle">
-            <div className="text-white"> +1 </div>
-            <div className="text-white"> <img src={Xar} alt="" className="gamer-card"/>  37 </div>
-        </div>
-    </div>
-</div>
+                                <div className="d-flex flex-column">
 
-<div className="gamer-user gamer-bottom">
-<div className="d-flex">
-        <span className="text-white oil-color font-50 gamer-number"> 2</span>
-    </div>
+                                    <div className="d-flex justify-content-between gamer-title ">
+                                        <div className=" oil-color  mr-3"> C 1</div>
+                                        <div className=" oil-color font-weight-bold"> FRIDDYT </div>
+                                    </div>
+                                    <div className="d-flex justify-content-between gamer-subtitle">
+                                        <div className="text-white"> +1 </div>
+                                        <div className="text-white"> <img src={Xar} alt="" className="gamer-card" />  37 </div>
+                                    </div>
+                                </div>
+                            </div>
 
-    <div className="d-flex flex-column">
-        
-        <div className="d-flex justify-content-between gamer-title ">
-            <div className=" oil-color  mr-3"> C 1</div>
-            <div className=" oil-color font-weight-bold"> FRIDDYT </div>
-        </div>
-        <div className="d-flex justify-content-between gamer-subtitle">
-            <div className="text-white"> +1 </div>
-            <div className="text-white"> <img src={Qyap} alt="" className="gamer-card"/>  37 </div>
-        </div>
-    </div>
-</div>
-<div className="gamer-user">
-<div className="d-flex">
-        <span className="text-white oil-color font-50 gamer-number"> 1</span>
-    </div>
+                            <div className="gamer-user gamer-bottom">
+                                <div className="d-flex">
+                                    <span className="text-white oil-color font-50 gamer-number"> 2</span>
+                                </div>
 
-    <div className="d-flex flex-column">
-        
-        <div className="d-flex justify-content-between gamer-title ">
-            <div className=" oil-color  mr-3"> C 1</div>
-            <div className=" oil-color font-weight-bold"> FRIDDYT </div>
-        </div>
-        <div className="d-flex justify-content-between gamer-subtitle">
-            <div className="text-white"> +1 </div>
-            <div className="text-white"> <img src={Qyap} alt="" className="gamer-card"/>  37 </div>
-        </div>
-    </div>
-</div>
-</div>
+                                <div className="d-flex flex-column">
+
+                                    <div className="d-flex justify-content-between gamer-title ">
+                                        <div className=" oil-color  mr-3"> C 1</div>
+                                        <div className=" oil-color font-weight-bold"> FRIDDYT </div>
+                                    </div>
+                                    <div className="d-flex justify-content-between gamer-subtitle">
+                                        <div className="text-white"> +1 </div>
+                                        <div className="text-white"> <img src={Qyap} alt="" className="gamer-card" />  37 </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="gamer-user">
+                                <div className="d-flex">
+                                    <span className="text-white oil-color font-50 gamer-number"> 1</span>
+                                </div>
+
+                                <div className="d-flex flex-column">
+
+                                    <div className="d-flex justify-content-between gamer-title ">
+                                        <div className=" oil-color  mr-3"> C 1</div>
+                                        <div className=" oil-color font-weight-bold"> FRIDDYT </div>
+                                    </div>
+                                    <div className="d-flex justify-content-between gamer-subtitle">
+                                        <div className="text-white"> +1 </div>
+                                        <div className="text-white"> <img src={Qyap} alt="" className="gamer-card" />  37 </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
 
+                    </div>
                 </div>
- </div>
-        </main>
+            </main>
         </>
     )
 }
