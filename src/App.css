@@ -18,9 +18,9 @@
 }
 
 .gamer-user {
-  background-image: url('./assetc/png/gameplay_design_01/sliver_chair_fream.png');
-  height: 120px;
-  width: 260px;
+  /* background-image: url('./assetc/png/gameplay_design_01/sliver_chair_fream.png'); */
+  /* height: 120px;
+  width: 260px; */
   background-repeat: round;
   justify-content: space-evenly;
   display: flex;
@@ -39,17 +39,51 @@
 }
 
 .gamer-title {
-  width: 110px;
+  /* width: 110px;
   margin-left: 25px;
-  margin-top: 25px;
+  margin-top: 25px; */
+  /* padding: 5px 25px; */
   /* background-image: url('./assetc/png/gameplay_design_01/sliver_text_box02.png'); */
   background-repeat: round;
 }
 
 .gamer-subtitle {
-  width: 90px;
+  /* width: 90px;
   margin-left: 25px;
-  margin-top: 15px;
+  margin-top: 15px; */
+  /* padding: 5px 25px; */
+  /* background-image: url('./assetc/png/gameplay_design_01/golden_text_box.png'); */
+  background-repeat: round;
+}
+
+.gold-subtitle {
+  background-image: url('./assetc/png/gameplay_design_01/golden_text_box02.png');
+  background-repeat: round;
+  width: 100%;
+}
+
+.gold-title {
+  background-image: url('./assetc/png/gameplay_design_01/golden_text_box.png');
+  background-repeat: round;
+  width: 100%;
+}
+
+.user-number {
+  /* background-image: url('./assetc/png/gameplay_design_01/sliver_circle.png'); */
+  background-repeat: round;
+  z-index: 2;
+}
+
+.silver-user {
+  width: 100%;
+  background-image: url('./assetc/png/gameplay_design_01/sliver_circle.png');
+  background-repeat: round;
+}
+ 
+.golden-user {
+  width: 100%;
+  background-image: url('./assetc/png/gameplay_design_01/golden_circle.png');
+  background-repeat: round;
 }
 
 .oil-color {
@@ -57,9 +91,9 @@
 }
 
 .gamer-number {
-  position: relative;
-  width: 100%;
-  left: 12px;
+  text-align: center;
+  width: 80px;
+  height: 80px;
 }
 
 .gamer-card {
@@ -88,68 +122,44 @@
   border-radius: 15px;
 }
 
+.game-card {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+
 .card-one {
   background-image: url('./assetc/png/cards/clubs_J.png');
-  height: 200px;
-  width: 125px;
-  background-repeat: round;
-  border-radius: 15px;
+
 }
 
 .card-two {
   background-image: url('./assetc/png/cards/diamonds_6.png');
-  height: 200px;
-  width: 125px;
-  background-repeat: round;
-  border-radius: 15px;
 }
 
 .card-three {
   background-image: url('./assetc/png/cards/clubs_Q.png');
-  height: 200px;
-  width: 125px;
-  background-repeat: round;
-  border-radius: 15px;
 }
 
 .card-four {
   background-image: url('./assetc/png/cards/hearts_1_A.png');
-  height: 200px;
-  width: 125px;
-  background-repeat: round;
-  border-radius: 15px;
 }
 
 .card-five {
   background-image: url('./assetc/png/cards/diamonds_8.png');
-  height: 200px;
-  width: 125px;
-  background-repeat: round;
-  border-radius: 15px;
 }
 
 .card-six {
   background-image: url('./assetc/png/cards/spades_K.png');
-  height: 200px;
-  width: 125px;
-  background-repeat: round;
-  border-radius: 15px;
 }
 
 .card-seven {
   background-image: url('./assetc/png/cards/spades_10.png');
-  height: 200px;
-  width: 125px;
-  background-repeat: round;
-  border-radius: 15px;
 }
 
 .card-eighth {
   background-image: url('./assetc/png/cards/diamonds_Q.png');
-  height: 200px;
-  width: 125px;
-  background-repeat: round;
-  border-radius: 15px;
 }
 
 .footer-container {

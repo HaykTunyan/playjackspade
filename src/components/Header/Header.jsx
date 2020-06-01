@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <>
         <header>
-            <div className="d-flex justify-content-between p-5">
+            <div className="d-flex justify-content-between p-4">
                 <div className="d-flex align-items-center">
                     <h1 className="oil-color">ROOM ID -FRED -N </h1>
                 </div>
